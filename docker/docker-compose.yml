@@ -4,9 +4,9 @@ services:
     container_name: zoraxy
     restart: unless-stopped
     ports:
-      - 80:80
-      - 443:443
-      - 8000:8000
+      - 85:85
+      - 2096:2096
+      - 8010:8010
     volumes:
       - /path/to/zoraxy/config/:/opt/zoraxy/config/
       - /path/to/zoraxy/plugin/:/opt/zoraxy/plugin/
